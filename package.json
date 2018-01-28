@@ -1,0 +1,29 @@
+{
+  "name": "brew-sensor",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/markysoft/brew-sensor.git",
+  "author": "mark <markharrop@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .js,.json .",
+    "test": "mocha --recursive test",
+    "test-watch": "yarn test --watch --reporter min"
+  },
+  "dependencies": {
+    "dotenv": "4.0.0",
+    "mongodb": "3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "4.16.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-config-nhsuk": "^0.8.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-react": "7.6.0",
+    "eslint-watch": "^3.1.2",
+    "mocha": "5.0.0"
+  }
+}

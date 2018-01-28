@@ -1,0 +1,6 @@
+{
+  "extends": "nhsuk",
+  "rules": {
+    "linebreak-style": "off"
+  }
+}
